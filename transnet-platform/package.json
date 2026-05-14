@@ -1,0 +1,21 @@
+{
+  "name": "transnet-platform",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/api",
+    "apps/web",
+    "packages/shared"
+  ],
+  "scripts": {
+    "dev:api": "npm run start:dev -w @transnet/api",
+    "build:api": "npm run build -w @transnet/api",
+    "start:api": "npm run start:prod -w @transnet/api",
+    "prisma:generate": "npm run prisma:generate -w @transnet/api",
+    "prisma:migrate": "npm run prisma:migrate -w @transnet/api",
+    "prisma:seed": "npm run prisma:seed -w @transnet/api"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}

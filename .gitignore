@@ -1,0 +1,44 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+**/dist/
+.next/
+**/.next/
+out/
+coverage/
+
+# Logs and caches
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.cache/
+.turbo/
+.eslintcache
+
+# Local OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Generated audit documentation/assets requested to stay out of Git
+docs/
+screenshots/
+
+# Local database/storage artifacts
+*.sqlite
+*.sqlite3
+*.db
+
+# Prisma generated local artifacts are recreated by install/generate
+**/prisma/dev.db
+**/prisma/dev.db-journal

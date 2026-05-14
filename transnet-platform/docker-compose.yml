@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: transnet-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: transnet
+      POSTGRES_USER: transnet
+      POSTGRES_PASSWORD: transnet
+    ports:
+      - "5433:5432"
+    volumes:
+      - transnet_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  transnet_postgres_data:

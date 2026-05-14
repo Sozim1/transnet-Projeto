@@ -1,0 +1,21 @@
+{
+  "name": "transnet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "audit": "node scrape.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "fs-extra": "^11.3.4",
+    "playwright": "^1.59.1"
+  }
+}

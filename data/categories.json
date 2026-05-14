@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Redes",
+    "url": "https://transnetnetworks.com.br/produto_categoria/redes/",
+    "observedInMenu": true
+  },
+  {
+    "name": "Segurança eletrônica",
+    "url": "https://transnetnetworks.com.br/produto_categoria/seguranca-eletronica/",
+    "observedInMenu": true
+  },
+  {
+    "name": "Ferramentas",
+    "url": "https://transnetnetworks.com.br/produto_categoria/ferramentas-profissionais/",
+    "observedInMenu": true
+  },
+  {
+    "name": "Elétrica",
+    "url": "https://transnetnetworks.com.br/produto_categoria/eletrica/",
+    "observedInMenu": true
+  },
+  {
+    "name": "Marcas",
+    "url": "https://transnetnetworks.com.br/#section-marcas",
+    "observedInMenu": true
+  }
+]
